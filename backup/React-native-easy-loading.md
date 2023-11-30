@@ -1,4 +1,3 @@
-
 # [react-native-easy-loading](https://github.com/yenole/react-native-easy-loading)
 
 [![npm version](https://badge.fury.io/js/react-native-easy-loading.svg)](https://badge.fury.io/js/react-native-easy-loading)
@@ -63,3 +62,6 @@ class App extends Component {
 
 ![iOS](https://raw.githubusercontent.com/Yenole/react-native-easy-loading/master/Screencap/ios.gif)
 ![android](https://raw.githubusercontent.com/Yenole/react-native-easy-loading/master/Screencap/android.gif)
+
+
+<!-- ##{"timestamp":1503379378}## -->
