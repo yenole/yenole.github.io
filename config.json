@@ -5,6 +5,6 @@
     "homeUrl": "https://yenole.com",
     "avatarUrl": "https://avatars.githubusercontent.com/u/6938587?s=100",
     "faviconUrl": "https://yenole.com/favicon.ico",
-    "singlePage": [],
-    "GMEEK_VERSION": "last"
+    "singlePage": [ "link", "about" ],
+    "email": "xusir82@gmail.com"
 }
