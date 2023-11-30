@@ -43,9 +43,9 @@ jobs:
           cp -r ./config.json ./templates/
           cd ./templates
           python Gmeek.py ${{ secrets.GITHUB_TOKEN }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
-          cp -a ./templates/docs ${{ github.workspace }} 
-          cp -a ./templates/backup ${{ github.workspace }} 
-          cp ./templates/blogBase.json ${{ github.workspace }} 
+          cp -a ./docs ${{ github.workspace }} 
+          cp -a ./backup ${{ github.workspace }} 
+          cp ./blogBase.json ${{ github.workspace }} 
           
       - name: Update html
         run: |
