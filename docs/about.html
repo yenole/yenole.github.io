@@ -12,8 +12,8 @@
         else if(localStorage.getItem("meek_theme")=="light"){document.getElementsByTagName("html")[0].attributes.getNamedItem("data-color-mode").value="light";}
     </script>
     
-<title>Linux挂载磁盘</title>
-<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
+<title>关于</title>
+
 
 </head>
 <style>
@@ -43,7 +43,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<span class="postTitle">Linux挂载磁盘</span>
+<span class="postTitle">关于</span>
 <div class="title-right">
 
     <a href="/"><button id="buttonHome" class="btn btn-invisible circle" title="首页">
@@ -52,7 +52,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </button></a>
 
-    <a href="https://github.com/yenole/blogs/issues/5" target="_blank"><button class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/yenole/blogs/issues/9" target="_blank"><button class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd" d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
         </svg>
@@ -68,22 +68,17 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody">
-<h2>切换root，可以跳过</h2>
-<div class="highlight highlight-source-shell"><pre class="notranslate">sudo -i</pre></div>
-<h2>查看当前挂在盘</h2>
-<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> Disk /dev/xvdb doesn't contain a valid partition table</span>
-fdisk -l</pre></div>
-<h2>创建分区</h2>
-<div class="highlight highlight-source-shell"><pre class="notranslate"><span class="pl-c"><span class="pl-c">#</span> 创建分区后可以通过fdisk -l查看信息</span>
-fdisk /dev/xvdb</pre></div>
-<h2>格式分区</h2>
-<div class="highlight highlight-source-shell"><pre class="notranslate">mkfs.ext3 /dev/xvdb1</pre></div>
-<h2>挂在分区</h2>
-<div class="highlight highlight-source-shell"><pre class="notranslate">mkdir /mountdata/
-mount /dev/xvdb1 /mountdata/
-<span class="pl-c"><span class="pl-c">#</span> 开机自动挂在</span>
-<span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">"</span>/dev/xvdb1	/mountdata	ext3	defaults	0	0<span class="pl-pds">"</span></span><span class="pl-k">&gt;&gt;</span>/etc/fstab</pre></div>
-
+<h1>👋 Hey Guys I'm Yoruno.</h1>
+<ul>
+<li>
+<p>👾 My Blog : <a href="https://yenole.com" rel="nofollow">yenole.com</a>   📊 Visitor : <a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b0614ea95a79ba3517bb5ac912212f34ae3e09cd5763cc909e0eeb56d360f137/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f79656e6f6c652f636f756e742e737667"><img src="https://camo.githubusercontent.com/b0614ea95a79ba3517bb5ac912212f34ae3e09cd5763cc909e0eeb56d360f137/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f79656e6f6c652f636f756e742e737667" width="140" data-canonical-src="https://profile-counter.glitch.me/yenole/count.svg" style="max-width: 100%;"></a></p>
+<p><a href="https://github.com/yenole"><img src="https://camo.githubusercontent.com/fb02c59254ea1b90a7728fce985a77a022574830e3f9de3ae27c1bb1029acea0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176612d6f72616e67653f7374796c653d666c6174266c6f676f3d6a617661" alt="Java" data-canonical-src="https://img.shields.io/badge/Java-orange?style=flat&amp;logo=java" style="max-width: 100%;"></a><br>
+<a href="https://github.com/yenole"><img src="https://camo.githubusercontent.com/9eced09adda6c979452be2544d3e7aee354e3517e90b78141c9a4d0b509b0f9f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f537072696e672d677261793f7374796c653d666c6174266c6f676f3d737072696e67" alt="Java" data-canonical-src="https://img.shields.io/badge/Spring-gray?style=flat&amp;logo=spring" style="max-width: 100%;"></a><br>
+<a href="https://github.com/yenole"><img src="https://camo.githubusercontent.com/8bca1e863bc2e884d39ea99fd96d0d5cf0c664b32945565987adf68d8311c75a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4d7953514c2d3031373543323f7374796c653d666c6174266c6f676f3d6d7973716c266c6f676f436f6c6f723d626c61636b" alt="MySQL" data-canonical-src="https://img.shields.io/badge/-MySQL-0175C2?style=flat&amp;logo=mysql&amp;logoColor=black" style="max-width: 100%;"></a><br>
+<a href="https://github.com/yenole"><img src="https://camo.githubusercontent.com/dafd88ad38ba6c5d547b54fb3131f92118757f305ef40770ac6561a7075994a5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4769742d626c61636b3f7374796c653d666c6174266c6f676f3d676974266c696e6b3d68747470733a2f2f6769746875622e636f6d2f79656e6f6c65" alt="Git" data-canonical-src="https://img.shields.io/badge/-Git-black?style=flat&amp;logo=git&amp;link=https://github.com/yenole" style="max-width: 100%;"></a><br>
+<a href="https://github.com/yenole"><img src="https://camo.githubusercontent.com/1f67a14a16582a2dd3ab532c030e07d3da0c0a9dd2a7266bb27909faf141c0f2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4a6176615363726970742d626c61636b3f7374796c653d666c6174266c6f676f3d6a617661736372697074266c696e6b3d68747470733a2f2f6769746875622e636f6d2f79656e6f6c65" alt="JavaScript" data-canonical-src="https://img.shields.io/badge/-JavaScript-black?style=flat&amp;logo=javascript&amp;link=https://github.com/yenole" style="max-width: 100%;"></a></p>
+</li>
+</ul>
 </div>
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
