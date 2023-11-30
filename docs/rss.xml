@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Yoruno</title><link>https://yenole.com</link><description>童话是一种生活态度，仅此而已。</description><copyright>Yoruno</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/6938587?s=100</url><title>avatar</title><link>https://yenole.com</link></image><lastBuildDate>Thu, 30 Nov 2023 03:21:39 +0000</lastBuildDate><managingEditor>Yoruno</managingEditor><pubDate>Thu, 30 Nov 2023 03:21:39 +0000</pubDate><ttl>60</ttl><webMaster>Yoruno</webMaster><item><title>封装deep-wine应用</title><link>https://yenole.com/post/feng-zhuang-deep-wine-ying-yong.html</link><description>### 原理&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Yoruno</title><link>https://yenole.com</link><description>👋 Hey Guys I'm Yoruno.</description><copyright>Yoruno</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/6938587?s=100</url><title>avatar</title><link>https://yenole.com</link></image><lastBuildDate>Thu, 30 Nov 2023 03:34:49 +0000</lastBuildDate><managingEditor>Yoruno</managingEditor><pubDate>Thu, 30 Nov 2023 03:34:49 +0000</pubDate><ttl>60</ttl><webMaster>Yoruno</webMaster><item><title>封装deep-wine应用</title><link>https://yenole.com/post/feng-zhuang-deep-wine-ying-yong.html</link><description>### 原理&#13;
  * 使用7z命令修改官方封装后的files.7z文件&#13;
  &#13;
 ### 更新微信为例&#13;
@@ -142,7 +142,7 @@ echo "/dev/xvdb1	/mountdata	ext3	defaults	0	0"&gt;&gt;/etc/fstab&#13;
 &#13;
 &#13;
 &lt;!-- ##{"timestamp":1503985003}## --&gt;&#13;
-。</description><guid isPermaLink="true">https://yenole.com/post/Linux-gua-zai-ci-pan.html</guid><pubDate>Thu, 30 Nov 2023 03:15:04 +0000</pubDate></item><item><title>测试文章</title><link>https://yenole.com/post/ce-shi-wen-zhang.html</link><description>测试文章111444。</description><guid isPermaLink="true">https://yenole.com/post/ce-shi-wen-zhang.html</guid><pubDate>Thu, 30 Nov 2023 02:30:58 +0000</pubDate></item><item><title>React-native-jsc</title><link>https://yenole.com/post/React-native-jsc.html</link><description># [react-native-jsc](https://github.com/yenole/react-native-jsc)&#13;
+。</description><guid isPermaLink="true">https://yenole.com/post/Linux-gua-zai-ci-pan.html</guid><pubDate>Thu, 30 Nov 2023 03:15:04 +0000</pubDate></item><item><title>React-native-jsc</title><link>https://yenole.com/post/React-native-jsc.html</link><description># [react-native-jsc](https://github.com/yenole/react-native-jsc)&#13;
 &#13;
 [![npm version](https://badge.fury.io/js/react-native-jsc.svg)](https://badge.fury.io/js/react-native-jsc)&#13;
 &#13;
