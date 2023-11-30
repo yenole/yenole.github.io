@@ -27,4 +27,5 @@ mount /dev/xvdb1 /mountdata/
 echo "/dev/xvdb1	/mountdata	ext3	defaults	0	0">>/etc/fstab
 ```
 
+
 <!-- ##{"timestamp":1503985003}## -->
